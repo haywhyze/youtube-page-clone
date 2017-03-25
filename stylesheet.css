@@ -1,0 +1,288 @@
+/*===================
+ General Styles
+ ===================*/
+
+body {
+    background-color: rgb(241, 241, 241);
+    font-size: 13px;
+}
+
+a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.2;
+}
+
+a:hover {
+    color: rgb(22, 138, 212);
+}
+
+hr {
+    opacity: 0.3;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.brand-pic {
+    display: inline-block;
+}
+
+.sub-tab {
+    display: inline-block;
+    padding: 5px 7px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 3px;
+    font-size: 86%;
+}
+
+.move-left {
+    position: relative;
+    left: -104px;
+    top: -9px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.right-tab {
+    margin-left: -8px;
+    background-color: white;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.show-more {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 90%;
+}
+
+
+/*===================
+ Header Styles
+ ===================*/
+
+header {
+    background-color: white;
+    height: 50px;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#nav-icon {
+    margin-bottom: 9px;
+    margin-right: 10px;
+    width: 14px;
+    opacity: 0.3;
+}
+
+#region {
+    display: inline-block;
+    position: relative;
+    font-size: 11px;
+    opacity: 0.6;
+    top: -20px;
+    left: -5px;
+}
+
+header form {
+    display: inline-block;
+    margin-left: 65px;
+    position: relative;
+    top: -5px;
+}
+
+#search {
+    width: 600px;
+    height: 13px;
+    padding: 5px 5px;
+    position: relative;
+    top: -7px;
+}
+
+#submit {
+    position: relative;
+    top: -3px;
+    left: -6px;
+    width: 70px;
+}
+
+#submit-img {
+    width: 18px;
+}
+
+#right-nav {
+    display: block;
+    float: right;
+    position: relative;
+    top: -5px;
+}
+
+
+/*===================
+ Main content Styles
+ ===================*/
+
+#main-content {
+    width: 810px;
+    margin: 10px 5px;
+    float: left;
+}
+
+#video-info {
+    margin: 10px 0;
+    padding: 13px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+#info-head {
+    height: 100px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/*===================
+ Sidebar Styles
+ ===================*/
+
+aside {
+    background-color: white;
+    float: right;
+    width: 410px;
+    height: 1000px;
+    margin: 10px 5px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+#advert {
+    margin: 0px 40px 0px 0px;
+}
+
+#etisalat-brand-name {
+    position: relative;
+    top: -38px;
+    font-weight: bold;
+}
+
+#ad {
+    display: inline-block;
+    color: white;
+    background-color: rgb(230, 188, 39);
+    padding: 1.5px 6px;
+    border-radius: 3px;
+    position: relative;
+    top: -38px;
+}
+
+#advert-end-note {
+    margin: 12px 0;
+    display: block;
+    clear: both;
+}
+
+#info-light {
+    float: right;
+}
+
+#advert-videos {
+    height: 115px;
+}
+
+#eti-pic-large {
+    float: left;
+    margin: 2px;
+}
+
+.eti-pic-small {
+    float: left;
+    margin: 1px;
+}
+
+.suggest {
+    height: 140px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.suggest-head {
+    height: 25px;
+}
+
+.suggest2 {
+    height: 100px;
+    padding-top: 15px;
+}
+
+#next {
+    font-size: 95%;
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+#autoplay {
+    font-size: 93%;
+    color: #777;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+    padding: 0 7px;
+}
+
+.name-views {
+    color: #777;
+    font-size: 86%;
+    line-height: 1.4;
+}
+
+
+/*===================
+ Comment Section Styles
+ ===================*/
+
+#comments {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/*===================
+Footer Styles
+ ===================*/
+
+footer {
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+    padding: 15px 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+}
